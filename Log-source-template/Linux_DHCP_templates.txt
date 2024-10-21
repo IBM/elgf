@@ -1,0 +1,30 @@
+<187>Sep 30 16:24:09 gnu.linuxdhcp.test.com dhcpd: [ID 702911 local7.error] bind update on %srcip% from palpeer rejected: incoming update is less critical than outgoing update
+<30>Mar 30 08:01:00 gnu.linuxdhcp.test.com dhcpd[20891]: DHCPOFFER on %destip% to 00:00:5e:00:53:00 (iPhone) via eth2 relay 10.10.0.0 lease-duration 119
+<190>Sep 30 17:58:17 gnu.linuxdhcp.test.com dhcpd: [ID 702911 local7.info] DHCPDECLINE of %srcip% from 00:00:5E:00:53:03 via 10.10.0.0: not found
+<190>Oct  1 09:00:40 gnu.linuxdhcp.test.com dhcpd: [ID 702911 local7.info] bind update on %srcip% got ack from palpeer: xid mismatch.
+<14>May  5 17:47:09 gnu.linuxdhcp.test.com /opt/qip/usr/bin/dhcpd[2770]: Delete Lease: IP=%destip%
+<14>May 30 04:32:17 gnu.linuxdhcp.test.com /opt/qip/usr/bin/dhcpd[3118]: DHCP Auto Release: Host=USERHOST IP=%destip% MAC=00005E005321 Domain=viTESTsa.com
+<14>May 30 06:24:28 gnu.linuxdhcp.test.com /opt/qip/usr/bin/dhcpd[3118]: DHCP Release: Host=USERHOST3 IP=%destip% MAC=00005E00535C Domain=viTESTsa.com
+<190>Sep 30 14:15:32 gnu.linuxdhcp.test.com dhcpd: [ID 702911 local7.info] DHCPDECLINE of %srcip% from 00:00:5E:00:53:0d (CUNT) via 10.10.0.0: abandoned
+<30>Mar 30 08:01:04 gnu.linuxdhcp.test.com dhcpd[20891]: DHCPREQUEST for %srcip% (10.10.0.0) from 00:00:5e:00:53:00 via 10.10.0.0 : wrong network. 
+<14>May 30 06:24:28 gnu.linuxdhcp.test.com /opt/qip/usr/bin/dhcpd[3118]: DHCP Release: Host=USERHOST2 IP=%destip% MAC=00005e005306 Domain=test.com
+<14>May 30 04:32:17 gnu.linuxdhcp.test.com /opt/qip/usr/bin/dhcpd[3118]: DHCP Auto Release: Host=USERHOST IP=%destip% MAC=00005e005306 Domain=test.com
+<30>Mar 30 08:01:03 gnu.linuxdhcp.test.com dhcpd[20891]: RELEASE on %srcip% to 00:00:5e:00:53:00
+<14>May 30 05:08:51 gnu.linuxdhcp.test.com /opt/qip/usr/bin/dhcpd[3118]: DHCP_RenewLease: Host=USERHOST4 IP=%destip% MAC=00005e005306 Domain=test.com
+<14>May 30 14:56:57 gnu.linuxdhcp.test.com /opt/qip/usr/bin/dhcpd[3118]: DHCP_GrantLease: Host=USERHOST2 IP=%destip% MAC=00005e005306 Domain=test.com
+<31>Mar  1 15:43:00 gnu.linuxdhcp.test.com dhcp[1234]: ICMP Echo reply while lease %srcip% valid.
+<31>Mar  1 15:43:00 gnu.linuxdhcp.test.com dhcp[1234]: Forward map from somehost.somedomainname.com to %srcip% FAILED: refused
+<187>Oct  1 08:52:10 gnu.linuxdhcp.test.com dhcpd: [ID 702911 local7.error] Dynamic and static leases present for %srcip%.
+<31>Mar  1 15:43:00 gnu.linuxdhcp.test.com dhcp[1234]: Addition of forward map for %srcip% deferred
+<187>Oct  1 01:54:38 gnu.linuxdhcp.test.com dhcpd: [ID 702911 local7.error] bind update on %srcip% from palpeer rejected: incoming update is less critical than outgoing update
+<190>Sep 30 20:04:45 gnu.linuxdhcp.test.com dhcpd: [ID 702911 local7.info] DHCPDECLINE of %srcip% from 00:25:bc:df:42:aa via 10.10.0.0: not found
+<30>Mar 30 08:01:03 gnu.linuxdhcp.test.com dhcpd[20891]: BOOTREQUEST from 00:00:5e:00:53:00 via %srcip%: BOOTP from dynamic client and no dynamic leases 
+<30>Mar 30 08:01:04 gnu.linuxdhcp.test.com dhcpd[20891]: DHCPNAK on %destip% to 00:0a:b8:e0:07:2f via 10.10.0.0 
+<30>Mar 30 08:01:09 gnu.linuxdhcp.test.com dhcpd[20891]: BOOTREQUEST from 00:00:5e:00:53:00 via %srcip% 
+<190>Sep 30 23:57:33 gnu.linuxdhcp.test.com dhcpd: [ID 702911 local7.info] BOOTREPLY for %srcip% to tmckool-0022806059-263539 (00:25:4b:c2:94:52) via 10.10.0.0
+<30>Sep 25 15:23:36 gnu.linuxdhcp.test.com dhcpd[20802]: DHCPEXPIRE on %srcip% to 00:00:5e:00:53:00 
+<30>Sep 25 15:23:36 gnu.linuxdhcp.test.com dhcpd[1648]: DHCPINFORM from %srcip% via 10.10.0.0 
+<30>Sep 25 07:28:03 gnu.linuxdhcp.test.com dhcpd[5831]: DHCPACK on %destip% to 1c:ab:a7:bb:f6:a6 (Thadeus) via eth2 relay 10.10.0.0 lease-duration 1800
+<30>Mar 30 08:01:43 gnu.linuxdhcp.test.com dhcpd[20891]: DHCPREQUEST for %srcip% (10.10.0.0) from 00:00:5e:00:53:00 (Nintendo 3DS) via %srcip%  (RENEW) 
+<30>Mar 30 08:01:43 gnu.linuxdhcp.test.com dhcpd[20891]: DHCPRELEASE of %srcip% from 00:00:5e:00:53:00 (Nintendo 3DS) via 10.10.0.0 (found)  
+<30>Mar 30 08:01:43 gnu.linuxdhcp.test.com dhcpd[20891]: DHCPOFFER on %destip% to 00:00:5e:00:53:00 (Nintendo 3DS) via eth2 relay 10.10.0.0 lease-duration 3505
