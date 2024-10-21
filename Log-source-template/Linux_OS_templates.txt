@@ -1,0 +1,22 @@
+Jan 26 10:18:22 gnu.linuxserver.test.com rexec(pam_unix)[27845]: session opened for user %user% by (uid=0)
+<182>Jul 22 15:43:15 gnu.linuxserver.test.com <86>sshd[2439]: Received disconnect from ::ffff:%srcip%: 11: disconnected by user
+Oct 21 16:45:23 gnu.linuxserver.test.com sshd[32164]: Postponed publickey for %user% from %srcip% port 37185 ssh2
+Oct 21 16:45:23 gnu.linuxserver.test.com sshd[32144]: Postponed publickey for %user% from %srcip% port 37184 ssh2nu.linuxserver.test.com port 53503 ssh2
+<86>Aug  9 14:58:49 gnu.linuxserver.test.com sshd[23885]: Accepted password for %user% from %srcip% port 40093 ssh2
+<86>Nov  6 17:00:20 gnu.linuxserver.test.com sshd[11173]: Accepted publickey for %user% from %srcip% port 47742 ssh2
+<86>Jun 23 15:36:29 gnu.linuxserver.test.com shadow[14194]: account deleted - account=%user%, uid=1002, by=0
+<82>Nov  9 14:59:04 gnu.linuxserver.test.com sshd[25410]: pam_succeed_if(sshd:auth): error retrieving information about user %user%
+<86>Nov  9 14:58:56 gnu.linuxserver.test.com sshd[25410]: Invalid user %user% from %srcip%
+<78>1 2012-12-23T15:01:01-06:00 gnu.linuxserver.test.com CROND 25191 - - (%user%) CMD (run-parts /etc/cron.hourly)
+<86>Jun 23 15:36:20 gnu.linuxserver.test.com shadow[14194]: home directory deleted - account=%user%, uid=1002, home=/home/%user%, by=0
+<86>Dec  2 13:01:22 gnu.linuxserver.test.com sshd-external[23553]: Invalid user %user% from %srcip%
+<142>Sep 1 11:25:54 gnu.linuxserver.test.com sshd(pam_unix)[11417]: session opened for user %user% by (uid=0)
+<85>Nov  3 19:09:56 gnu.linuxserver.test.com unix_chkpwd[1736]: password check failed for user (%user%)
+Sep 30 12:21:44 gnu.linuxserver.test.com sftp-server[15530]: session opened for local user %user% from [%srcip%]
+Sep 30 16:14:10 gnu.linuxserver.test.com sftp-server[385]: session closed for local user %user% from [%srcip%]
+<86>Aug  9 14:59:52 gnu.linuxserver.test.com sshd[24478]: pam_unix(sshd:session): session closed for user %user%
+<86>Aug  9 14:59:56 gnu.linuxserver.test.com sshd[24574]: pam_unix(sshd:session): session opened for user %user% by (uid=0)
+<37>Jun 23 15:50:34 gnu.linuxserver.test.com su: (to admin) %user% on none
+<86>Jun 23 15:33:15 gnu.linuxserver.test.com useradd[14039]: new account added - account=%user%, uid=1002, gid=100, home=/home/%user%, shell=/bin/bash, by=0
+<82>Mar  5 18:03:22 gnu.linuxserver.test.com auth: pam_succeed_if(dovecot:auth): error retrieving information about user %user%
+<83>Nov 14 11:56:11 gnu.linuxserver.test.com sshd[27788]: pam_ldap: error trying to bind as user "uid=%user%,ou=people,dc=ogilvy,dc=com" (Invalid credentials)
